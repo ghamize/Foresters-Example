@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Foresters Financial Destination 2018</title>
+	<!--Styles-->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/ui.css">
+
+	<!--vendor-->
+	<!--angular-->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.js"></script>
+	<!--jquery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
+	<!--bootstrap-->
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!--app controllers-->
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="site/controllers/main.ctrl.js"></script>
+</head>
+<!--main site/index-->
+
+	<body ng-app="siteApp">
+<!--top nav imgs-->
+
+<CENTER>
+<nav class="navbar navbar-default navbar-fixed-top nav-me">
+  <div class="container">
+   <div class="row"><BR>
+
+		
+		<a ui-sref="home" class="font">home</a> 
+		<img src="assets/img/small-circle1.png" class="circle"> 
+   		<a ui-sref="about" class="font">destination</a> 
+   		<img src="assets/img/small-circle1.png" class="circle"> 
+   		<a ui-sref="hotel" class="font">hotel</a> 
+   		<img src="assets/img/small-circle1.png" class="circle"> 
+		<a ui-sref="program" class="font">program</a> 
+		<img src="assets/img/small-circle1.png" class="circle"> 
+		<a ui-sref="itinerary" class="font">itinerary</a> 
+		<img src="assets/img/small-circle1.png" class="circle"> 
+		<a ui-sref="activities" class="font">optional activities</a> 
+		<img src="assets/img/small-circle1.png" class="circle"> 
+		<a ui-sref="difference" class="font">delivering the difference</a> 
+		<img src="assets/img/small-circle1.png" class="circle"> 
+		<a ui-sref="documents" class="font">travel documents</a> 
+		<img src="assets/img/small-circle1.png" class="circle"> 
+		<a ui-sref="contact" class="font">contact us</a> 
+		<img src="assets/img/small-circle1.png" class="circle"> 
+		<a ui-sref="faqs" class="font">frequently asked questions</a> 
+		<img src="assets/img/small-circle1.png" class="circle"> 
+		<a ui-sref="privacy" class="font">privacy policy</a> 
+		<img src="assets/img/small-circle1.png" class="circle"> 
+		<a ui-sref="register" class="font">register for the program</a> 
+</div>
+</div>
+  </div>
+</nav>
+
+<BR>
+	<!--top header img-->
+
+			
+	<img src="assets/img/header.png" class="main_header">
+</center>
+<!--static content(layout)-->
+
+
+
+
+
+<!--dynamic content-->	
+							<div ui-view class="wrapper">
+							
+							<!--dynamic content goes in here-->
+
+							</div>
+
+						</div>
+							</div>
+												
+								</section>
+	
+<!--static footer-->
+	<div class="footer">
+		<a href="http://www.meridican.com" target="_blank"><img src="assets/img/meridican-logo.png" class="mer_logo"></a>
+
+	</div>
+
+
+	</body>
+</html>
